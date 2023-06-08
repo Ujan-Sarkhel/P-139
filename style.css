@@ -1,0 +1,27 @@
+h1
+{
+    width: 100%;
+    background-color: yellow;
+    float: left;
+    top:0
+}
+
+#inst
+{
+    float: right;
+}
+
+h3
+{
+    color:grey;
+    margin:0px;
+    width:100%;
+    background-color: white;
+    line-height: 3;
+    text-align:center;
+}
+
+canvas
+{
+    opacity:0%
+}

@@ -1,0 +1,58 @@
+<!--created by prashant shukla-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ping Pong</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+     
+        <link rel="stylesheet" href="style.css">
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>   
+
+    </head>
+    <body background="background1.jpg">
+        <center>
+            <h1> AI Ping Pong GAME
+                <button id="inst" class="btn btn-primary" data-target="#myModal" data-toggle="modal"> Instructions </button>
+            </h1>
+            <br><br>
+            <button id="ply" onclick="playGame()" class="btn btn-success"> Play Game</button>
+            <button id="rst" onclick="restart_game()" class="btn btn-danger"> Restart Game</button>
+            <br>
+            <h3 id="status"></h3>
+            <div id="canvas"></div>
+
+            <div id="myModal" class="modal fade">  
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button class="close" data-dismiss="modal">&#10005;</button>
+                      <h4> Instructions </h4>
+                    </div>
+                    <div class="modal-body">
+                        <ol>
+                            <li>Use your mouse the control the paddel.</li>
+                            <li>The left paddel is controlled by you</li>
+                            <li>Know about the mechanics of the game as you play. Have Fun!</li>
+                          </ol>
+                    </div>
+                  </div>
+            
+                </div>
+                </div>
+
+                <h3>
+                  Developed by - Ujan Sarkhel
+                </h3>
+
+        </center>
+
+
+
+        <script src="main.js"></script>
+    </body>
+</html>
